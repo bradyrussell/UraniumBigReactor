@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.oredict.OreDictionary;
 
-@Mod(modid = "uraniumbigreactor", version = "@VERSION@", dependencies = "required-after:bigreactors;required-after:IC2")
+@Mod(modid = "uraniumbigreactor", version = "@VERSION@", dependencies = "required-after:bigreactors"/*;required-after:industrialcraft-2"*/)
 public final class UraniumBigReactorMod
 {
     @EventHandler
